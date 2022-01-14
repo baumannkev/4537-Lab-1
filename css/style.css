@@ -1,0 +1,57 @@
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+body {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vh;
+  }
+  
+  #template {
+    display: none;
+  }
+  
+  #updateMessage {
+      text-align: right;
+  }
+  
+  #notes,
+  #back {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+  }
+  
+  .note {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  textarea {
+      height: auto;
+      resize: none;
+      overflow: auto;
+      margin: 10px;
+      background-color: rgb(150, 242, 245);
+      color: midnightblue;
+      width: 80%;
+      max-width: 500px;
+      font-size: 2vh;
+  }
+  
+  .content {
+    height: 80px;
+  }
+  
+  .updateMessage {
+    text-align: right;
+  }
+  
